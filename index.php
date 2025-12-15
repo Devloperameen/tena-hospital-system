@@ -18,10 +18,10 @@ require_once 'config/database.php';
                 </div>
                 <nav class="nav">
                     <ul>
-                        <li><a href="index.php">Home</a></li>
-                        <li><a href="login.php">Patient Login</a></li>
-                        <li><a href="register.php">Register</a></li>
-                        <li><a href="admin/admin_login.php">Admin Login</a></li>
+                        <li><a href="index.php" data-icon="home">Home</a></li>
+                        <li><a href="login.php" data-icon="login">Patient Login</a></li>
+                        <li><a href="register.php" data-icon="register">Register</a></li>
+                        <li><a href="admin/admin_login.php" data-icon="admin">Admin Login</a></li>
                     </ul>
                 </nav>
             </div>
@@ -30,7 +30,7 @@ require_once 'config/database.php';
 
     <div class="container">
         <div class="hero">
-            <h2>Welcome to Tena Hospital</h2>
+            <h2 data-icon="hospital">Welcome to Tena Hospital</h2>
             <p>Your Health, Our Priority</p>
             <div style="margin: 30px 0;">
                 <a href="register.php" class="btn btn-secondary">Register Now</a>
@@ -40,15 +40,15 @@ require_once 'config/database.php';
 
         <div class="features">
             <div class="feature-box">
-                <h3>Easy Booking</h3>
+                <h3 data-icon="booking">Easy Booking</h3>
                 <p>Book appointments online easily</p>
             </div>
             <div class="feature-box">
-                <h3>Expert Doctors</h3>
+                <h3 data-icon="doctors">Expert Doctors</h3>
                 <p>Professional medical staff</p>
             </div>
             <div class="feature-box">
-                <h3>24/7 Service</h3>
+                <h3 data-icon="service">24/7 Service</h3>
                 <p>Always here to help you</p>
             </div>
         </div>
