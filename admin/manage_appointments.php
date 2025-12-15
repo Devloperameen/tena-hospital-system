@@ -102,7 +102,7 @@ $appointments = mysqli_query($conn, $sql);
 
                         <td>
                             <?php echo $row['patient_id']; ?><br>
-                            <small><?php echo $row['patient_phone']; ?></small>
+                            <small><?php echo $row['patient_id']; ?></small>
                         </td>
 
                         <td><?php echo $row['doctor_name']; ?></td>
