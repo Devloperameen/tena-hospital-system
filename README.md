@@ -21,11 +21,7 @@
 - [📸 Screenshots](#screenshots)
 - [📁 Project Structure](#project-structure)
 - [⚙️ Installation Guide](#installation-guide)
-- [🔐 Login Credentials](#login-credentials)
-- [📊 Database Schema](#database-schema)
-- [🎯 Project Requirements](#project-requirements)
-- [📞 Contact](#contact)
-- [🙏 Acknowledgments](#acknowledgments)
+
 
 ## 👨‍🎓 Student Information
 
@@ -120,44 +116,25 @@ Web browser (Chrome, Firefox, etc.)
 
 🗄️ Database Installation Using database.sql
 
-Start XAMPP
-
-Open XAMPP Control Panel
-
-Start Apache and MySQL
-
-Open phpMyAdmin
-
-Open your browser and go to:
-
-http://localhost/phpmyadmin
-
+-Start XAMPP
+ -Open XAMPP Control Panel
+  -Start Apache and MySQL
+-Open phpMyAdmin
+  -Open your browser and go to: http://localhost/phpmyadmin
 
 Create the Database
-
-Click New
+ -Click New
 
 Enter the database name:
-
-tena_hospital
-
+ -tena_hospital
 
 Click Create
-
-Import the SQL File
-
-Select the tena_hospital database
-
-Click the Import tab
-
-Click Choose File
-
-Select:
-
-database.sql
-
-
-Click Go
+-Import the SQL File
+  -Select the tena_hospital database
+-Click the Import tab
+  -Click Choose File
+-Select: database.sql
+-Click Go
 
 Verify the Import
 
@@ -167,14 +144,10 @@ No error messages should appear
 
 ▶️ Run the Project
 
-Copy the project folder into:
-
-C:\xampp\htdocs\
+Copy the project folder into:  C:\xampp\htdocs\
 
 
-Open your browser and navigate to:
-
-http://localhost/tena-hospital/
+Open your browser and navigate to:  http://localhost/tena-hospital/
 
 
 ✅ The system is now ready to use.
