@@ -119,7 +119,7 @@ Web browser (Chrome, Firefox, etc.)
 -Start XAMPP
  -Open XAMPP Control Panel
   -Start Apache and MySQL
--Open phpMyAdmin
+Open phpMyAdmin
   -Open your browser and go to: http://localhost/phpmyadmin
 
 Create the Database
@@ -131,9 +131,9 @@ Enter the database name:
 Click Create
 -Import the SQL File
   -Select the tena_hospital database
--Click the Import tab
+Click the Import tab
   -Click Choose File
--Select: database.sql
+Select: database.sql
 -Click Go
 
 Verify the Import
