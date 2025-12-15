@@ -34,12 +34,12 @@
 | **Course** | PHP Web Development |
 | **Instructor** | ALIY  |
 | **Submission Date** | December 2024 |
-| **GitHub** | [Devloperameen](https://github.com/Devloperameen) |
+| **GitHub** | [Devloperameen](https://github.com/Devloperameen) | [practiceg1](http://github.com/practiceg1)
 
 ## 👥 Team Members ( Assignment)
 - **SADIK FAREJ** — 2351/16 
 - **ABDUSEMED MOHAMMED** — 0514/16
-- **MICHAEL ZERIHUN** — 3399/16
+- **MICHAEL ZERIHUN** — 3399/12
 - **SISAY ABABE** — 2475/16
 - **  MESGANA DEWIT ** — 1958/16
 
@@ -95,17 +95,86 @@ The **Tena Hospital Appointment System** is a comprehensive web application desi
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](https://via.placeholder.com/800x450/3498db/ffffff?text=Tena+Hospital+Home+Page)
+![Home Page](ScreenShots/Home%20Page.jpeg)
 
 ### Patient Dashboard
-![Dashboard](https://via.placeholder.com/800x450/2ecc71/ffffff?text=Patient+Dashboard)
+![Dashboard](ScreenShots/Patient%20Dashboard.jpeg)
 
 ### Appointment Booking
-![Booking](https://via.placeholder.com/800x450/e74c3c/ffffff?text=Appointment+Booking)
+![Booking](ScreenShots/Booking%20Appointment.jpeg)
 
 ### Admin Panel
-![Admin](https://via.placeholder.com/800x450/9b59b6/ffffff?text=Admin+Panel)
+![Admin](ScreenShots/Admin%20Dashvoard.jpeg)
 
-*(Note: Replace with actual screenshots from your project)*
+## ⚙️ Installation Guide (Database Setup)
 
-## 📁 Project Structure
+Follow the steps below to set up the database before opening the project.
+
+🔧 Prerequisites
+
+XAMPP (Apache & MySQL)
+
+PHP 7.4 or higher
+
+Web browser (Chrome, Firefox, etc.)
+
+🗄️ Database Installation Using database.sql
+
+Start XAMPP
+
+Open XAMPP Control Panel
+
+Start Apache and MySQL
+
+Open phpMyAdmin
+
+Open your browser and go to:
+
+http://localhost/phpmyadmin
+
+
+Create the Database
+
+Click New
+
+Enter the database name:
+
+tena_hospital
+
+
+Click Create
+
+Import the SQL File
+
+Select the tena_hospital database
+
+Click the Import tab
+
+Click Choose File
+
+Select:
+
+database.sql
+
+
+Click Go
+
+Verify the Import
+
+Ensure all tables are created successfully
+
+No error messages should appear
+
+▶️ Run the Project
+
+Copy the project folder into:
+
+C:\xampp\htdocs\
+
+
+Open your browser and navigate to:
+
+http://localhost/tena-hospital/
+
+
+✅ The system is now ready to use.

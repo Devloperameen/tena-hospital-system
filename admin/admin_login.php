@@ -80,7 +80,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </form>
 
             <p style="text-align:center; margin-top:20px;">
-                Default: username: <strong>admin</strong>, password: <strong>admin123</strong>
+                username: <strong>admin</strong>, password: <strong>admin123</strong>
             </p>
         </div>
     </div>
